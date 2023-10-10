@@ -1,5 +1,7 @@
 CREATE TABLE usuarios(
   ide SERIAL PRIMARY KEY,
+  nombre text NOT NULL,
+  apellidos text NOT NULL,
   usuario varchar (20) NOT NULL,
   email text NOT NULL,
   contra text NOT NULL,
