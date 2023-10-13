@@ -9,6 +9,7 @@ CREATE TABLE usuarios(
   edad integer NOT NULL,
   peso double precision NOT NULL,
   altura double precision NOT NULL
+  imagen text
 );
 
 CREATE TABLE ingredientes(
