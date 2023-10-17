@@ -1,0 +1,129 @@
+* 	
+{
+	box-sizing: border-box ;
+	font-family: sans-serif;
+	border-radius: 10px;
+	
+}
+body
+{
+	margin: 0;
+    padding: 0;
+	background: url(raton.jpg) center bottom;
+	background-size: cover;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	
+}
+.cajafuera
+{
+    width: 200vh;
+    height: 100vh;
+    display: grid;
+	overflow: hidden; 
+}
+.formulariocaja
+{
+	background-color: rgb(254,146,107);
+    width: 600px;
+    height: auto;
+    position: relative;
+    margin: auto;
+
+    padding: 1em;
+	border-radius: 50px; /* Bordes redondeados de la caja principal*/
+	color:rgb(171, 191, 150)	;
+
+}
+
+input 
+{
+	display: block;
+	text-align: left;
+	box-sizing: border-box;
+}
+::placeholder {  	
+  color: rgb(255, 255, 255);
+   
+}
+.cajaentradatexto{
+	font-family: "Cooper Black";
+	width: 65%;
+    padding: 14px 10px;
+	font-size:20px;
+	margin: 1%;
+	border-radius:0px;
+	border-color:white;
+	background: rgb(254,146,107);
+	color: transparent;
+	font-weight: 300;
+    text-align: center;
+}
+
+.formtitulo
+{
+	color: #ffffff;
+	font-family:"Forte";
+	font-size:60px; /*em es la otra manera de representar el tamaño*/
+	font-weight: 100;	
+}
+.formsubtitulo
+{
+	font-family: "Forte";
+	font-size:1.5em;
+	font-weight: 100;
+	padding-bottom:0.5em;
+	color: #ffffff;	
+}
+a
+{
+	font-size: 30px;
+	text-decoration: none;
+	cursor:pointer;
+	font-family:"Forte";
+	color:  #ffffff;
+}
+
+.botonenviar
+{
+    width: 30%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+	border:0px solid rgb(255, 255, 255);
+	font-size:32px;
+    font-family: Forte;
+	color:rgb(255, 255, 255);
+	background-color: rgb(156, 138, 111);
+	text-align:center;
+	margin: 3%;
+}
+
+img
+{
+	width: 120px;
+}
+
+@media screen and (max-width:425px)
+{
+	.formulariocaja
+	{
+	width: 100%
+	}
+}
+
+c
+{
+	font-size: 30px;
+	text-decoration: underline;
+	cursor:pointer;
+	font-family:"Forte";
+	color:  #ffffff;
+	font-stretch: extra-expanded;
+}

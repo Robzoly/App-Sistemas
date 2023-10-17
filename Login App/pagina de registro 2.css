@@ -1,0 +1,265 @@
+* 	
+
+{
+	box-sizing: border-box ;
+	font-family: sans-serif;
+	border-radius: 10px;
+	
+}
+
+
+body
+{
+    padding: 0;
+	background: url(raton.jpg) center;
+	background-position-y: bottom;
+	background-size: auto;
+	
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	margin: 0;
+}
+
+
+.cajafuera
+{
+    width: 200vh;
+    height: 100vh;
+    display: grid;
+	overflow: hidden; 
+	text-align: center;
+}
+
+
+
+
+
+.input-container {
+	display: flex; /* Utiliza un contenedor flexbox */
+	gap: 10px; /* Espacio entre los elementos (ajusta según tus necesidades) */
+}  
+.input-container input {
+	flex: 1; /* Hace que los elementos ocupen todo el espacio disponible dentro del contenedor */
+}
+.input-container-2 {
+	display: flex; /* Utiliza un contenedor flexbox */
+	gap: 50px; /* Espacio entre los elementos (ajusta según tus necesidades) */
+}  
+.input-container input-2 {
+	flex: 1; /* Hace que los elementos ocupen todo el espacio disponible dentro del contenedor */
+}
+
+
+
+.input-container_abajo {
+	flex: 1;
+	display: flex; /* Utiliza un contenedor flexbox */
+	gap: 10px; /* Espacio entre los elementos (ajusta según tus necesidades) */
+}  
+.input-container_abajo input {
+	flex: 1; /* Hace que los elementos ocupen todo el espacio disponible dentro del contenedor */
+}
+.input-container_abajo {
+	width: 40%;
+	display: flex; /* Utiliza un contenedor flexbox */
+	gap: 5px; /* Espacio entre los elementos (ajusta según tus necesidades) */
+}  
+.input-container_abajo input-2 {
+	flex: 1; /* Hace que los elementos ocupen todo el espacio disponible dentro del contenedor */
+}
+
+.input-container-3 {
+	display: flex; /* Utiliza un contenedor flexbox */
+	gap: 10px; /* Espacio entre los elementos (ajusta según tus necesidades) */
+	width: 60%;
+}  
+.input-container-3 input {
+	flex: 1; /* Hace que los elementos ocupen todo el espacio disponible dentro del contenedor */
+}
+.input-container-3 {
+	display: flex; /* Utiliza un contenedor flexbox */
+	gap: 50px; /* Espacio entre los elementos (ajusta según tus necesidades) */
+}  
+.input-container-3 input-2 {
+	flex: 1; /* Hace que los elementos ocupen todo el espacio disponible dentro del contenedor */
+}
+
+
+
+
+
+
+.formulariocaja
+{
+	background-color: rgb(254,146,107);
+    width: 600px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 1em;
+	border-radius: 10px; /* Bordes redondeados de la caja principal*/
+	color:rgb(171, 191, 150)	;
+}
+
+input 
+{
+	display: block;
+	text-align: left;
+	box-sizing: border-box;
+}
+::placeholder {  	
+  color: rgb(255, 255, 255);
+   
+}
+
+.cajaentradatexto{
+	font-family: "Cooper Black";
+	width: 80%;
+    padding: 14px 10px;
+	font-size:20px;
+	margin: 1%;
+	outline: none;
+	border-radius:0px;
+	margin: 1%;
+	border-color:white;
+	background:transparent;
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+    text-align: center;
+
+}
+
+.botondeprueba
+{
+	width: 35%;
+	padding: 1px 4px;
+	margin-top:4	0px;
+	border: white;
+	border-radius: 0px;
+	margin-bottom: 7px;
+	background-color:gray;	
+}
+
+.cajaentradatexto_nombre_de_usuario	{
+	font-family: "Cooper Black";
+	width: 80%;
+    padding: 14px 10px;
+	font-size:20px;
+	margin: 1%;
+	outline: none;
+	border-radius:0px;
+	border-color:white;
+	background: rgb(254,146,107);
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+    text-align: center;
+
+}
+
+
+
+
+.formtitulo
+{
+	color: #ffffff;
+	font-family:"Forte";
+	font-size:60px; /*em es la otra manera de representar el tamaño*/
+	font-weight: 100;	
+}
+.formsubtitulo
+{
+	font-family: "Forte";
+	font-size:1.5em;
+	font-weight: 100;
+	padding-bottom:0.5em;
+	color: #ffffff;	
+}
+a
+{
+	font-size: 30px;
+	text-decoration: none;
+	cursor:pointer;
+	font-family:"Forte";
+	color:  #ffffff;
+}
+.af
+{	
+		
+}
+
+.botonenviar
+{
+    width: 50%;
+    padding: 10px 60px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+	border:0px solid rgb(255, 255, 255);
+	font-size:32px;
+    font-family: Forte;
+	color:rgb(255, 255, 255);
+	background-color: rgba(0, 141, 31, 0.541);
+	text-align:center;
+	margin: 3%;
+}
+
+
+.botonenviar_2
+{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+	text-align: center;
+    outline: none;
+    border-radius: 10px;
+	border:0px solid rgb(255, 255, 255);
+	font-size:18px;
+    font-family: Forte;
+	color:rgb(255, 255, 255);
+	background-color: gray;
+	text-align:center;
+	margin: 1%;
+}
+
+
+
+
+img
+{
+	width: 120px;
+}
+
+@media screen and (max-width:425px)
+{
+	.formulariocaja
+	{
+	width: 100%
+	}
+}
+b
+{
+	font-weight: 100;
+	text-decoration: underline;
+	cursor:pointer;
+	font-family:"Forte";
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+}
+
+c
+{
+	font-size: 30px;
+	text-decoration: underline;
+	cursor:pointer;
+	font-family:"Forte";
+	color:  #ffffff;
+	font-stretch: extra-expanded;
+}

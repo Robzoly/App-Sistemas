@@ -1,0 +1,204 @@
+* 	
+{
+	box-sizing: border-box ;
+	font-family: sans-serif;
+	border-radius: 10px;
+	
+}
+
+.logo
+{
+	width: 250px;
+}
+
+
+
+body
+{
+	margin: 0;
+    padding: 0;
+	background: url(raton.jpg) center bottom;
+	background-size: cover;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	
+}
+.cajafuera
+{
+    width: 200vh;
+    height: 100vh;
+    display: grid;
+	overflow: hidden; 
+}
+.formulariocaja
+{
+	background-color: rgb(254,146,107);
+    width: 700px;
+    height: auto;
+    position: relative;
+    margin: auto;
+
+    padding: 1em;
+	border-radius: 10px; /* Bordes redondeados de la caja principal*/
+	color:rgb(180, 103, 74)	;
+
+}
+
+input 
+{
+	display: block;
+	text-align: left;
+	box-sizing: border-box;
+}
+::placeholder {  	
+  color: rgb(255, 255, 255);
+   
+}
+.cajaentradatexto{
+	font-family: "Cooper Black";
+	width: 85%;
+    padding: 14px 10px;
+	font-size:20px;
+	margin: 1%;
+	border-radius: 0px;
+	border-color:white;
+	border-style: groove;
+	background:transparent;
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+    text-align: center;
+}
+
+.formtitulo
+{
+	color: #ffffff;
+	font-family:"Monotype Corsiva";
+	font-size:90px; /*em es la otra manera de representar el tamaño*/
+	font-weight: 100;	
+}
+
+d
+{
+	font-size: 30px;
+	text-decoration: none;
+	font-family:"Forte";
+	color:  #ffffff;
+}
+
+.formsubtitulo
+{
+	font-family: "Forte";
+	font-size:1.5em;
+	font-weight: 100;
+	padding-top: 5px;
+	padding-bottom:5px;
+	color: #ffffff;	
+}
+a
+{
+	font-size: 30px;
+	text-decoration: none;
+	cursor:pointer;
+	font-family:"Forte";
+	color:  #ffffff;
+}
+.af
+{	
+		
+}
+
+.botonenviar
+{
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+	border:0px solid rgb(255, 255, 255);
+	font-size:32px;
+    font-family: Forte;
+	color:rgb(255, 255, 255);
+	background-color: rgba(0, 141, 31, 0.541);
+	text-align:center;
+	margin: 3%;
+}
+
+img
+{
+	width: 120px;
+}
+
+@media screen and (max-width:425px)
+{
+	.formulariocaja
+	{
+	width: 100%
+	}
+}
+
+.recuperar_contraseña{
+	text-align: left;
+	width: 85%;
+	padding: 0px;
+}
+
+.espacio{
+	padding-bottom: 50px;
+}
+
+.botonenviar_2{
+	width: 35%;
+	margin: 10px;
+	background-color: rgb(122,133,161);
+}
+	
+.iniciarsesion{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "Monotype Corsiva";
+	font-size: 40px;
+}
+
+producto cartesiano
+division entera
+composicion de relaciones
+representacion de matriz 
+
+
+bs
+{
+	font-weight: 100;
+	width: 85%;
+	cursor:pointer;
+	font-family:"Forte";
+	color: #ffffff;
+	
+	text-align: left;
+}
+
+
+
+b
+{
+	font-weight: 100;
+	text-decoration: underline;
+	cursor:pointer;
+	font-family:"Forte";
+	color: #ffffff;
+	font-size: 25px;
+}
+
+c
+{
+	font-size: 30px;
+	text-decoration: underline;
+	cursor:pointer;
+	font-family:"Forte";
+	color:  #ffffff;
+	font-stretch: extra-expanded;
+}

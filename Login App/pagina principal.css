@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.Barra_izquierda{
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(179, 104, 77);
+    
+}
+
+.Bienvenido{    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: forte;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.Div_caja{
+    height: 100%;
+}
+
+.fc{
+    font-family: Forte;
+    margin: 20px;
+    font-size: 35px;
+    color: black;
+}
+
+#Barra_izquierda {
+    flex-direction: column;
+    display: flex;
+    background-color:rgb(254,146,107);
+    color: #fff;
+    width: 20%;
+
+}
+
+#content {
+    flex: 1;
+    background: url(raton.jpg) center bottom;
+	background-size: cover;
+}
+
+.CajaDeTexto{
+    position: absolute;
+    bottom: 0px;
+    background-color:rgb(254,146,107);
+    width: 80%;
+}
+
+.fondo{
+    text-align: center;   
+    background-color: rgb(100,100,100);
+   
+}
+
+#Respuesta {
+
+    margin: 10px;
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+}
