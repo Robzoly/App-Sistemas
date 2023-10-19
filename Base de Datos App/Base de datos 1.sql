@@ -1,15 +1,15 @@
 CREATE TABLE usuarios(
   ide SERIAL PRIMARY KEY,
-  nombre text NOT NULL,
-  apellidos text NOT NULL,
-  usuario varchar (20) NOT NULL,
-  email text NOT NULL,
-  contra text NOT NULL,
-  sexo char,
-  edad integer NOT NULL,
-  peso double precision NOT NULL,
-  altura double precision NOT NULL
-  imagen text
+  Nombre text NOT NULL,
+  Apellidos text NOT NULL,
+  Usuario varchar (20) NOT NULL,
+  Correo text NOT NULL,
+  Contraseña text NOT NULL,
+  Sexo char,
+  Edad integer NOT NULL,
+  Peso double precision NOT NULL,
+  Estatura double precision NOT NULL
+  Imagen text
 );
 
 CREATE TABLE ingredientes(
