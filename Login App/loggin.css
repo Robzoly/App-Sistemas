@@ -17,7 +17,7 @@ body
 {
 	margin: 0;
     padding: 0;
-	background: url(raton.jpg) center bottom;
+	background: url(background.jpg) center bottom;
 	background-size: cover;
 	align-items: center;
 	display: flex;
@@ -163,12 +163,6 @@ img
 	font-family: "Monotype Corsiva";
 	font-size: 40px;
 }
-
-producto cartesiano
-division entera
-composicion de relaciones
-representacion de matriz 
-
 
 bs
 {
