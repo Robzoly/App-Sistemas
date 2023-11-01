@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 $host='localhost';
 $port='5432';
-$dbname='Base de datos 1';
+$dbname='DB 1';
 $user='postgres';
 $password='319011340';
 
