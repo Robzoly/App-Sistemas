@@ -4,7 +4,7 @@ CREATE TABLE usuarios(
   Apellidos text NOT NULL,
   Usuario varchar (20) NOT NULL,
   Correo text NOT NULL,
-  Contraseña text NOT NULL,
+  Contrasena text NOT NULL,
   Sexo char,
   Edad integer NOT NULL,
   Peso double precision NOT NULL,
