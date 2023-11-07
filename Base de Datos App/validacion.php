@@ -12,7 +12,7 @@ $usuario=$_POST['txtusuario'];
 $clave=$_POST['txtpassword'];
 
 $query=("SELECT*FROM usuarios WHERE 
-Usuario='$usuario' AND Contraseña='$clave");
+Usuario='$usuario' AND Contrasena='$clave");
 
 $consulta=pg_query($conexion,$query);
 $cantidad=pg_num_rows($consulta);
