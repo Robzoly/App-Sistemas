@@ -1,15 +1,15 @@
+-- Active: 1698815714487@@127.0.0.1@5432@postgres
 CREATE TABLE usuarios(
   ide SERIAL PRIMARY KEY,
   Nombre text NOT NULL,
-  Apellidos text NOT NULL,
-  Usuario varchar (20) NOT NULL,
+  Apellidos text not null,
+  Usuario char (20) NOT NULL,
   Correo text NOT NULL,
   Contrasena text NOT NULL,
   Sexo char,
   Edad integer NOT NULL,
   Peso double precision NOT NULL,
   Estatura double precision NOT NULL
-  Imagen text
 );
 
 CREATE TABLE ingredientes(
